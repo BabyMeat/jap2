@@ -106,6 +106,7 @@ function parseCSV(data, delimiter, structure) {
     }, []);
     return result;
 }
+
 function loadFile(files) {
     tableau = [];
     if (files.length === 1) {
