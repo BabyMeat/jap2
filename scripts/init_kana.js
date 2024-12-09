@@ -10,6 +10,22 @@ export const QuizApp = {
 // MAIN - LOAD KANA :
 async function loadKANA() {
     console.log("Chargement du fichier KANA...");
+    let tableau = [
+        { romaji: "a", kana: "あ" },
+        { romaji: "i", kana: "い" },
+        { romaji: "u", kana: "う" },
+        { romaji: "e", kana: "え" },
+        { romaji: "o", kana: "お" }
+    ];
+    let associations = new Map([
+        ["a", "あ"],
+        ["i", "い"],
+        ["u", "う"],
+        ["e", "え"],
+        ["o", "お"]
+    ]);
+    QuizApp.tableau_roma_kana = tableau;
+    QuizApp.assoc_roma_kana = associations;
     /*
     const structure = ["romaji", "kana"];
 
