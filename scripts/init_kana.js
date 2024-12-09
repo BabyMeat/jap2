@@ -10,6 +10,7 @@ export const QuizApp = {
 // MAIN - LOAD KANA :
 async function loadKANA() {
     console.log("Chargement du fichier KANA...");
+    /*
     const structure = ["romaji", "kana"];
 
     // RENVOIE DATA :
@@ -75,7 +76,8 @@ async function loadKANA() {
     } catch (error) {
         console.error("Erreur lors du chargement des données KANA :", error);
     }
+    */
 }
 
 // CHARGEMENT AU DÉMARRAGE :
-document.addEventListener("DOMContentLoaded", loadKANA);
+loadKANA();
