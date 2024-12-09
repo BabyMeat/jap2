@@ -2,8 +2,10 @@
 const versionNamePATH = "meta/version";
 
 // Initialisation Affichage :
+/* ça crée une erreur !!!!!!
 const resultat = document.getElementById('resultat');
 resultat.classList.add('hidden');
+*/
 const structure = ['romaji','kana'];
 const kana = 'vocab/kana/kana.csv';
 
