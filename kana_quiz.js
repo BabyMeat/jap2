@@ -5,8 +5,7 @@ const versionNamePATH = "meta/version";
 const resultat = document.getElementById('resultat');
 resultat.classList.add('hidden');
 const structure = ['romaji','kana'];
-const hiragana = 'vocab/kana/hiragana.csv';
-const katakana = 'vocab/kana/katakana.csv';
+const kana = 'vocab/kana/kana.csv';
 
 // Variables Score :
 var reponses_correctes = 0;
@@ -15,10 +14,8 @@ var mauvaises_reponses = [];
 
 // Variables Quiz : 
 const rep = 5;
-var hira_to_roma = [];
-var kata_to_roma = [];
-var roma_to_hira = new Map();
-var kata_to_hira = new Map();
+var tableau_roma_kana = [];
+var assoc_roma_kana = new Map();
 var check_reponse = "";
 
 // Initialisation Page :
@@ -37,6 +34,7 @@ function windowLoad() {
     }
     printVersion();
     init_variables();
+    QUIZ();
 }
 window.onload = windowLoad;
 
@@ -107,13 +105,10 @@ function init_variables(){
         return result;
     }
     // RECUPERATION DATA :
-    let data_hira = filterDATA(chemin_to_data(hiragana));
-    let data_kata = filterData(chemin_to_data(katakana));
+    let data_kana = filterDATA(chemin_to_data(kana));
     // INITIALISATION VARIABLES :
-    hira_to_roma = tableau(data_hira, ',', structure);
-    kata_to_roma = tableau(data_kata, ',', structure);
-    roma_to_hira = associations(data_hira, ',', structure);
-    kata_to_hira = associations(data_kata, ',', structure);
+    tableau_roma_kana = tableau(data_kana, ',', structure);
+    assoc_roma_kana = associations(data_hira, ',', structure);
 }
 
 // ROMAJI TO KANA CONVERTER : TODO ???
@@ -147,15 +142,7 @@ function convertToKana(input, association) {
 
 // LOGIQUE DU QUIZ : 
 
-function genere_chaine(tableau){
-    let tmp = new Set;
-
-    function random(max) {
-        return Math.floor(Math.random() * max);
-    }
-
-    while (tmp.size < reps) {
-        tmp.add(tableau[random(tableau.length)]);
-    }
-     
+function QUIZ(){
+    console.log("début du quiz");
+    //...
 }
