@@ -9,7 +9,9 @@
 
     <!-- STYLES -->
     <link rel="stylesheet" href="styles/theme.css">
-
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/kana.css">
+ 
 </head>
 <body>
     <nav>
@@ -18,24 +20,21 @@
             <h1>Easy Kana</h1>
         </a>
     </nav>
-    <div class="menu">
+    <main>
         <div class="quiz">
             <h3>Quiz Kana :</h3>
             <div id="score">score :</div>
             <div id="question">Kana</div>
             <input type="text" id="answer" placeholder="Votre réponse">
             <div id="feedback"></div>
+            <button>test</button>
         </div>
-    </div>
-    <div class="resultats-erreurs" id="resultats-erreurs" style="display: none;">
-        <h1>Erreurs les plus fréquentes</h1>
-        <div class="erreurs-container"></div>
-    </div>
+    </main>
     
     
-    <!-- SCRIPTS -->  
-    <script src="scripts/version.js" async></script>
-    <script src="scripts/init_kana.js" defer></script>
-
+    <!-- SCRIPTS   
+    <script type="module" src="scripts/version.js" async></script>
+    <script type="module" src="scripts/init_kana.js" defer></script>
+    -->
 </body>
 </html>

@@ -1,31 +1,35 @@
+import {printVersion} from './version.js';
+
 // Chemin Kana :
 const kana = "vocab/kana/kana.csv";
 
 // INITIALISATION VARIABLES : 
-export const QuizApp = {
-    tableau_roma_kana: [],
-    assoc_roma_kana: new Map()
+// IL FAUT QUE QUIZ ATTENDE CECI !!!
+export const KANA = {
+    tableau: [],
+    associations: new Map()
 };
 
 // MAIN - LOAD KANA :
 async function loadKANA() {
+    await printVersion();
     console.log("Chargement du fichier KANA...");
-    let tableau = [
+    let tab_tmp = [
         { romaji: "a", kana: "あ" },
         { romaji: "i", kana: "い" },
         { romaji: "u", kana: "う" },
         { romaji: "e", kana: "え" },
         { romaji: "o", kana: "お" }
     ];
-    let associations = new Map([
+    let assoc_tmp = new Map([
         ["a", "あ"],
         ["i", "い"],
         ["u", "う"],
         ["e", "え"],
         ["o", "お"]
     ]);
-    QuizApp.tableau_roma_kana = tableau;
-    QuizApp.assoc_roma_kana = associations;
+    KANA.tableau = tab_tmp;
+    KANA.associations = assoc_tmp;
     /*
     const structure = ["romaji", "kana"];
 

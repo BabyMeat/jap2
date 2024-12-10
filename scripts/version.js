@@ -1,7 +1,7 @@
 // Chemin Version :
 const versionNamePATH = "meta/version";
 
-async function printVersion() {
+export async function printVersion() {
     try {
         const response = await fetch(versionNamePATH);
         if (!response.ok) {

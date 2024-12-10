@@ -1,0 +1,93 @@
+.quiz {
+    min-width: 200px;
+    min-height: 50px;
+    padding : 10px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.1);
+    display: flex;      
+    flex-direction: column;        
+    justify-content: space-between;
+}
+
+.quiz > * {
+    margin-bottom: 10px;
+}
+
+#answer {
+    padding : 5px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+
+/* STYLE ERREURS */
+
+/* Conteneur des erreurs */
+.erreurs-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: flex-start; /* Optionnel : aligner les boîtes en haut */
+}
+
+/* Boîte d'erreur */
+.erreur-box {
+    border: 2px solid #ff6b6b; /* Bordure rouge clair */
+    border-radius: 12px;
+    padding: 15px;
+    background-color: #ffecec; /* Fond rouge pâle */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px; /* Largeur fixe ajustée pour un meilleur rendu */
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Légère ombre */
+    transition: transform 0.3s ease; /* Animation douce */
+}
+
+/* Animation de survol */
+.erreur-box:hover {
+    transform: scale(1.05); /* Agrandissement léger au survol */
+}
+
+/* Style pour le kana */
+.erreur-box .kana {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Style pour le romaji */
+.erreur-box .romaji {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+/* Style pour le nombre d'erreurs */
+.erreur-box .error-count {
+    font-size: 1em;
+    color: #e74c3c; /* Rouge pour le nombre d'erreurs */
+    font-weight: bold;
+}
+
+/* Titre principal des erreurs */
+.resultats-erreurs h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Style pour le conteneur global des résultats */
+.resultats-erreurs {
+    display: none; /* Par défaut, caché */
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}

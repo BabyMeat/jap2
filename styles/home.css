@@ -1,0 +1,11 @@
+main a {
+    width: 200px;
+    height: 50px;
+    margin : 40px;
+    padding : 10px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.1);
+    display: flex;              
+    justify-content: center;    
+    align-items: center;
+}
