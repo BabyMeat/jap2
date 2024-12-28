@@ -10,9 +10,10 @@
     <!-- STYLES -->
     <link rel="stylesheet" href="styles/theme.css">
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/keyboard.css">
  
 </head>
-<body>
+<body id="keyboard">
     <nav>
         <a class="logo-text" href="index.html">
             <img class="logo" src="img/logo.svg" alt="Logo">
@@ -20,12 +21,28 @@
         </a>
     </nav>
     <main>
-        COMING SOON
-    </main>
+        <section class="response">
+            <header class="top-bar">
+                <h1>Japanese Keyboard</h1>
+                <button>
+                    <img src="img/copy.svg" alt="Copier">
+                    Copier
+                </button>
+            </header>
+            <pre id="translatedText"></pre>
+        </section>
+    </main>    
+    <section class="zone-de-saisie">
+        <textarea class="saisie" id="input" placeholder="Romaji"></textarea>
+    </section>    
     
-
-    <!-- SCRIPTS -->  
+    
+    <!-- SCRIPTS   
     <script type="module" src="scripts/version.js" async></script>
+    <script type="module" src="scripts/init_kana.js" defer></script>
+    -->
+    <script type="module" src="scripts/VERSION.js"></script>
+    <script type="module" src="scripts/CLAVIER.js"></script>
 
 </body>
 </html>
