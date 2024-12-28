@@ -1,0 +1,116 @@
+# VOICI LE FICHIER DE BASE POUR LE QUIZ
+
+# Amusez-vous à le personaliser avec vos propres kanji.
+
+# .....................................................
+# REGLES D'UTILISATION POUR UN BON FONCTIONNEMENT : 
+# .....................................................
+
+# 1. Vueillez insérer au moins 4 characters différents :
+# 人,ひと,personne,🧑
+# 男,おとこ,homme,👨
+# 女,おんな,femme,👩
+# 子,こ,enfant,🧒
+
+# 2. Respectez la structure que voici :
+# Kanji,Kana,French,Emoji
+
+# 3. N'ajoutez aucun espacement entre les éléments :
+# Kanji, Kana , French ,Emoji
+
+# 4. Vous pouvez ajouter un espacement entre les kanji :
+# 人,personne,ひと
+#
+#
+# 男,homme,おとこ
+
+# 5. Vous pouvez ajouter des lignes de commentaires en les commençant par : #
+
+
+# LISTE KANJI BASE :
+
+
+# STRUCTURE :
+
+
+
+人,ひと,personne,🧑
+男,おとこ,homme,👨
+女,おんな,femme,👩
+子,こ,enfant,🧒
+日,ひ,soleil,🌞
+月,つき,lune,🌜
+時,とき,temps,⏰
+水,みず,eau,💧
+火,ひ,feu,🔥
+土,つち,terre,🌍
+風,かぜ,vent,💨
+空,そら,ciel,☁️
+山,やま,montagne,⛰️
+川,かわ,rivière,🌊
+木,き,arbre,🌳
+花,はな,fleur,🌸
+雨,あめ,pluie,🌧️
+雪,ゆき,neige,❄️
+金,かね,argent,💰
+刀,かたな,sabre,⚔️
+
+
+
+# MEMBRES DE LA FAMILLE : 
+
+夫,おっと,Mon époux,👨‍👩‍👦‍👦
+妻,つま,Mon épouse,👩‍👩‍👦‍👦
+父,ちち,Mon père,👨
+母,はは,Ma mère,👩
+子供,こども,Mon enfant,🧒
+祖父母,そふぼ,Mes grands parents,👵👴
+祖父,そふ,Mon grand père,👴
+祖母,そぼ,Ma grand mère,👵
+兄,あに,Mon grand frère,👨‍🦱
+弟,おとうと,Mon petit frère,👦
+姉,あね,Ma grande soeur,👩‍🦱
+妹,いもうと,Ma petite soeur,👧
+
+# 両親,りょうしん,Mes parents,👪
+# 息子,むすこ,Mon fils,👦
+# 娘,むすめ,Ma fille,👧
+# 孫,まご,Mon petit enfant,👶
+# 双子,ふたご,Mon jumeau/Ma jumelle,👯
+# 兄弟,きょうだい,La fraterie,👨‍👩‍👦
+# 従兄弟/従姉妹,いとこ,Mon cousin/cousine,🧑‍🤝‍🧑
+# 叔父,おじ,Mon oncle ainé,👨‍🦳
+# 叔父,おじ,Mon oncle cadet,👨‍🦳
+# 叔母,おば,Ma tante ainée,👩‍🦳
+# 叔母,おば,Ma tante cadette,👩‍🦳
+# 義兄,ぎけい,Mon beau frère ainé,👨‍🦱
+# 義弟,ぎてい,Mon beau frère cadet,👦
+# 義姉,ぎし,Ma belle soeur ainée,👩‍🦱
+# 義妹,ぎまい,Ma belle soeur cadette,👧
+
+
+
+# ANIMAUX :
+
+犬,いぬ,Le chien,🐶
+猫,ねこ,Le chat,🐱
+鳥,とり,L'oiseau,🐦
+魚,さかな,Le poisson,🐟
+狸,たぬき,Le tanuki,🦝
+兎,うさぎ,Le lapin,🐰
+牛,うし,La vache,🐮
+羊,ひつじ,Le mouton,🐑
+山羊,やぎ,La chèvre,🐐
+豚,ぶた,Le cochon,🐷
+馬,うま,Le cheval,🐴
+鹿,しか,Le cerf,🦌
+驢馬,ロバ,L'âne,🐴
+鶏,にわとり,La poule,🐔
+鼠,ねずみ,La souris,🐭
+
+# no_kanji,ラクダ,Le dromadaire,🐪
+# no_kanji,リス,L'écureuil,🐿️
+# no_kanji,はりねずみ,Le hérisson,🦔
+# no_kanji,ハムスター,Le hamster,🐹
+# no_kanji,フェリシモ,Le furet,🦡
+

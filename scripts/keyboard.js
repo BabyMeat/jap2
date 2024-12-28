@@ -1,6 +1,6 @@
 // DONE.
-import { LOAD } from "./LOAD";
-import { TO_MAP } from "./LOAD";
+import { LOAD } from "./load.js";
+import { TO_MAP } from "./load.js";
 
 // VARIABLES :
 let keyboard = {
@@ -11,11 +11,10 @@ let keyboard = {
 };
 
 async function LOAD_KEYBOARD(){
-    const chemins = ["chemin1","chemin2","chemin3","chemin4"];
-    keyboard.hiragana = await TO_MAP(LOAD(chemins[0]));
-    keyboard.katakana = await TO_MAP(LOAD(chemins[1]));
-    keyboard.kanji = await TO_MAP(LOAD(chemins[2]));
-    keyboard.verbes = await TO_MAP(LOAD(chemins[3]));
+    keyboard.hiragana = await TO_MAP(LOAD("vocab/hiragana.csv"));
+    keyboard.katakana = await TO_MAP(LOAD("vocab/katakana.csv"));
+    keyboard.kanji = await TO_MAP(LOAD("vocab/kanji.csv"));
+    keyboard.verbes = await TO_MAP(LOAD("vocab/verbes.csv"));
 }
 
 function TRADUIT(input){
